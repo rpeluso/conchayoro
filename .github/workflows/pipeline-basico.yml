@@ -1,0 +1,14 @@
+name: pipeline-basico
+on:
+push:
+branches: [ "main" ]
+jobs:
+build:
+runs-on: ubuntu-latest
+steps:
+- name: executa comando
+run: echo "Configuração inicial do pipeline"
+Acione o comando “Commit changes...”.
+Preencha conforme a seguir.
+_______________________________________________________________________
+Página 2 de 6
